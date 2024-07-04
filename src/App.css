@@ -1,38 +1,67 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* Dark Mode */
+body.dark-mode {
+  background-color: #354365;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+body.dark-mode .container {
+  background-color: #354365;
+  color: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body.dark-mode .form-control {
+  background-color: #72658f;
+  color: white;
+  border-color: #625D86;
+}
+
+body.dark-mode .btn-primary {
+  background-color: #C793C0;
+  border-color: #9377A5;
+  color: white;
+}
+
+body.dark-mode .accordion-item {
+  background-color: #444;
+}
+
+body.dark-mode .accordion-body {
+  background-color: #555;
+}
+
+/* Light Mode */
+body.light-mode {
+  background-color: #FCB0D6;
+  color: black;
+}
+
+body.light-mode .container {
+  background-color: #FCB0D6;
+  color: black;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+body.light-mode .form-control {
+  background-color: #FCB0D6; /* Update to match the light mode color */
+  color: black;
+  border-color: #C793C0; /* Update to match the light mode border color */
+}
+
+body.light-mode .btn-primary {
+  background-color: #9377A5;
+  border-color: #9377A5;
+  color: white;
+}
+
+body.light-mode .accordion-item {
+  background-color: white;
+}
+
+body.light-mode .accordion-body {
+  background-color: #f9f9f9;
 }

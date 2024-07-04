@@ -1,0 +1,88 @@
+
+/* Base styles */
+body {
+    background-color: #B7A6B4;
+  }
+  
+  .text-form-container {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: auto;
+  }
+  
+  .container.my-3 {
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .dark-mode {
+    background-color: #354365;
+    color: white;
+  }
+  
+  .container {
+    background-color: #B7A6B4; /* Light mode container background color */
+    color: black; /* Light mode container text color */
+  }
+  
+  .form-control {
+    background-color: white; /* Default background color */
+    color: black; /* Default text color */
+    border-color: #ccc; /* Default border color */
+  }
+  
+  .form-control:focus {
+    outline: none;
+    border-color: #00000000; /* Remove border focus */
+  }
+  
+  .btn.mx-1.my-1 {
+    background-color: #956543;
+    color: white;
+    border-color: #00000000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .light-mode .form-control::placeholder {
+    color: #666666;
+  }
+  
+  .dark-mode .form-control::placeholder {
+    color: #BBBBBB; 
+  }
+  
+  
+  .preview-container {
+    max-height: 200px; /* Set a maximum height for the preview */
+    overflow-y: auto; /* Add a vertical scrollbar if the content exceeds the height */
+    padding: 10px; /* Optional: Add a border to visually separate the preview */
+    background-color: #b7a6b4; /* Optional: Set a background color */
+    white-space: pre-wrap; /* Ensures that text wraps within the container */
+    word-wrap: break-word; /* Ensures that long words are broken up to avoid overflow */
+    font-family: monospace;
+    color: inherit; /* Inherit color based on mode */
+  }
+  
+  /* Optional: Add some padding to the textarea for better UX */
+  .textarea-container {
+    margin-bottom: 10px;
+  }
+  
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    flex-wrap: wrap; /* Allows buttons to wrap to the next line on smaller screens */
+  }
+  
+  .button-container .btn {
+    margin: 5px; /* Adjust spacing between buttons */
+    min-width: 120px; /* Minimum width of each button */
+    max-width: 100%; /* Maximum width relative to parent container */
+    flex: 1; /* Distribute space evenly among buttons */
+  }
+  
