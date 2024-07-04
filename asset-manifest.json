@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/TextWiz-React/static/css/main.a06f7030.css",
+    "main.js": "/TextWiz-React/static/js/main.75bb051d.js",
+    "static/js/453.f129bd7f.chunk.js": "/TextWiz-React/static/js/453.f129bd7f.chunk.js",
+    "index.html": "/TextWiz-React/index.html",
+    "main.a06f7030.css.map": "/TextWiz-React/static/css/main.a06f7030.css.map",
+    "main.75bb051d.js.map": "/TextWiz-React/static/js/main.75bb051d.js.map",
+    "453.f129bd7f.chunk.js.map": "/TextWiz-React/static/js/453.f129bd7f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a06f7030.css",
+    "static/js/main.75bb051d.js"
+  ]
+}
